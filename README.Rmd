@@ -1,0 +1,74 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# mitchhedberg
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of mitchhedberg is to ...
+
+## Installation
+
+You can install the released version of mitchhedberg from [CRAN](https://CRAN.R-project.org) with:
+
+``` r
+install.packages("mitchhedberg")
+```
+
+You can install the dev version of mitchhedberg from [Github](https://github.com) with:
+
+``` r
+remotes::install_github("mkearney/mitchhedberg")
+```
+
+## Example
+
+Print a randomly selected Mitch Hedberg joke
+
+``` r
+mitchhedberg::joke()
+#>   I don't own a watch because I want my arms to weigh the same.
+```
+
+Add joke to your machine's startup routine (for interactive sessions where the {mitchhedberg} package is installed)
+
+``` r
+mitchhedberg::joke_on_startup()
+```
+
+Restart R (examples below)
+
+```
+Restarting R session...
+
+  My friend came up to me and he said "Hey, you know what I like? 
+  Mashed potatoes." It was like, "Dude, you gotta give me time to 
+  guess. If you're gonna quiz me, you gotta put a pause in there."
+
+Restarting R session...
+
+  I type 101 words a minute, but it's in my own language.
+
+Restarting R session...
+
+  I can read minds. But it's pointless because I'm illiterate.
+
+Restarting R session...
+
+  I like to play blackjack. I'm not addicting to gambling... I'm 
+  addicting to sitting in a semicircle.
+```
+
