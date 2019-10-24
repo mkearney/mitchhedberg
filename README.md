@@ -7,7 +7,7 @@
 
 <!-- badges: end -->
 
-The goal of mitchhedberg is to …
+Mitch Hedberg was the best.
 
 ## Installation
 
@@ -34,8 +34,8 @@ mitchhedberg::joke()
 #>   I don't own a watch because I want my arms to weigh the same.
 ```
 
-Add joke to your machine’s startup routine (for interactive sessions
-where the {mitchhedberg} package is installed)
+Add to your startup routine (for interactive sessions where
+{mitchhedberg} is installed)
 
 ``` r
 mitchhedberg::joke_on_startup()
